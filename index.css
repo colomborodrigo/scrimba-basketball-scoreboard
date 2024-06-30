@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'tableroDisplay';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+body {
+    font-family: Verdana, serif;
+    max-width: 575px;
+    margin: auto;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    color: #EEEEEE;
+    flex-direction: column;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    background: black;
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: "tableroDisplay", serif;
+}
+
+.increments {
+    margin-top: 20px;
+    width: 155px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.common-box {
+    color: #9AABD8;
+    font-family: "tableroDisplay", serif;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 45px;
+    background: none;
+    margin: auto;
+}
+
+.incrementer-box {
+    width: 45px;
+}
+
+.reset-box, .newGame-box {
+    width: 100%;
+}
